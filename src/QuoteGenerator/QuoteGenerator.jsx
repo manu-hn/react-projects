@@ -6,7 +6,7 @@ import '../Styles.css'
 
 const QuoteGenerator = ({ url }) => {
 
-    const [quote, setQuote] = useState({ advice: '' })
+    const [quote, setQuote] = useState('')
 
     const fetchData = async () => {
         try {
